@@ -34,5 +34,13 @@
     "test": "tsc --noEmit false --outDir .test-build --allowImportingTsExtensions false && node --test .test-build/tests/*.test.js",
     "check:sdk": "bb plugin types . --check",
     "build": "bb plugin build ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/artbear/bb-plugin-cursor-hermes-ai.git"
+  },
+  "homepage": "https://github.com/artbear/bb-plugin-cursor-hermes-ai#readme",
+  "bugs": {
+    "url": "https://github.com/artbear/bb-plugin-cursor-hermes-ai/issues"
   }
 }

@@ -10,6 +10,8 @@
 `hermes` с поддержкой ACP. Дополнение не устанавливает и не обновляет эти CLI.
 
 ```sh
+git clone https://github.com/artbear/bb-plugin-cursor-hermes-ai.git
+cd bb-plugin-cursor-hermes-ai
 npm ci --include=dev
 npm test
 npm run check:sdk
@@ -34,7 +36,7 @@ bb plugin install .
 bb machine list --json
 bb plugin config cursor-hermes-ai set cursorMachine host_example
 bb plugin config cursor-hermes-ai set hermesMachine host_another
-bb plugin config cursor-hermes-ai set cursorProxy http://proxy.infostart.loc:3128
+bb plugin config cursor-hermes-ai set cursorProxy http://proxy.example.com:3128
 bb cursor-hermes-ai test --service cursor --task thread-title
 bb cursor-hermes-ai test --service cursor --task commit-message
 bb cursor-hermes-ai test --service hermes --task thread-title
